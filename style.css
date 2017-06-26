@@ -1,0 +1,97 @@
+.gameblock {
+	height: 30%;
+	width: 30%;
+	margin: 1.66%;
+	border-radius: 20px;
+	float: left;
+}
+
+.hideblock {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 0.5s, opacity 0.5s linear;
+}
+
+body {
+	background-color: #191A1B;
+	margin: 0;
+	font-family: 'PT Sans', sans-serif;
+}
+
+h1 {
+	margin: 0;
+	padding-top: 20px;
+	font-size: 3em;
+}
+
+#winner {
+	font-size: 1.5em;
+}
+
+#container {
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+}
+
+#gamespace {
+	max-width: 600px;
+	height: 400px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+#header {	
+	min-height: 200px;
+	background-color: #4778AB;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#modes {
+	background-color: white;
+}
+
+#mode_contain {
+	max-width: 580px;
+	min-height: 30px;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	margin: 0 auto;
+}
+
+.btn {
+	color: white;
+	border: 0;
+	font-size: 1em;
+}
+
+.btn:hover {
+	background-color: #e6b144;
+	color: black;
+	cursor: pointer;
+}
+
+.reset {
+	background-color: #48A44A;
+	text-align: left;
+}
+
+.spacer, .spacer:hover {
+	flex-grow: 2;
+	background-color: white;
+}
+
+.mode {
+	background-color: #C0C9CB;
+}
+
+button:focus {
+	outline:0;
+}
+
+.selected {
+	background-color: #4778AB;
+}
